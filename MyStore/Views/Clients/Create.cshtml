@@ -1,0 +1,44 @@
+﻿@page
+@model MyStore.Views.Clients.Create
+@{
+}
+
+
+<br />
+<h2>New Clients</h2>
+
+<form method="post">
+	<div class="row bm-3">
+		<label class="col-sm-3 col-form-label">Name</label>
+		<div class="col-sm-66">
+			<input type="text" class="form-control" name="name" value="" />
+		</div>
+	</div>
+	<div class="row bm-3">
+		<label class="col-sm-3 col-form-label">Email</label>
+		<div class="col-sm-66">
+			<input type="text" class="form-control" name="email" value="" />
+		</div>
+	</div>
+	<div class="row bm-3">
+		<label class="col-sm-3 col-form-label">Phone</label>
+		<div class="col-sm-66">
+			<input type="text" class="form-control" name="phone" value="" />
+		</div>
+	</div>
+	<div class="row bm-3">
+		<label class="col-sm-3 col-form-label">Address</label>
+		<div class="col-sm-66">
+			<input type="text" class="form-control" name="address" value="" />
+		</div>
+	</div>
+
+	<div class="row bm-3">
+		<div class="offset-sm-3 col-sm-3 d-grid">
+			<button type="submit" class="btn btn-primary">Submit</button>
+			<div class="col-sm-3 d-grid">
+				<a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
+			</div>
+		</div>
+	</div>
+</form>
